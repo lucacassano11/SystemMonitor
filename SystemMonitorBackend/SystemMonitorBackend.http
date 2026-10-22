@@ -1,0 +1,6 @@
+@SystemMonitorBackend_HostAddress = http://localhost:5019
+
+GET {{SystemMonitorBackend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
